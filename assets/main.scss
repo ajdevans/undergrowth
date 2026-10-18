@@ -21,12 +21,23 @@ pre, code {
   font-family: inherit;
 }
 
-/* Site title and nav links: same size, Jost Medium */
-.site-title,
-.site-nav .page-link {
+/* Site title (header): original theme size */
+.site-title {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 54px;
+  letter-spacing: 0;
+}
+
+/* Nav links and page titles: same size, Jost Medium */
+.site-nav .page-link,
+.post-title,
+.page-heading {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.5;
   letter-spacing: 0;
 }
 
