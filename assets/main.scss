@@ -1,22 +1,41 @@
 ---
 ---
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
 
-$background-color: #006a4e;
-$text-color: #ffffff;
-$brand-color: #c9a227;
-$grey-color: #9a8f7a;
-$grey-color-light: #3a332a;
-$grey-color-dark: #c9bda5;
-$base-font-family: Futura, "Jost", "Century Gothic", "Trebuchet MS", sans-serif;
+$background-color: #ffffff;
+$text-color: #000000;
+$brand-color: #006a4e;
+$grey-color: #000000;
+$grey-color-light: #d9d9d9;
+$grey-color-dark: #000000;
+$base-font-family: "Jost", Futura, "Century Gothic", "Trebuchet MS", sans-serif;
 $base-font-size: 18px;
 $content-width: 860px;
 
 @import "minima";
 
-/* Make sure every element uses the same font */
+/* Keep headings, code, and metadata in the same font */
 h1, h2, h3, h4, h5, h6,
-.site-title, .site-nav, .post-meta,
+.post-meta,
 pre, code {
   font-family: inherit;
+}
+
+/* Site title and nav links: same size, Jost Medium */
+.site-title,
+.site-nav .page-link {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.site-header {
+  border-top: 4px solid $brand-color;
+  border-bottom: 1px solid $brand-color;
+}
+
+blockquote {
+  border-left: 4px solid $brand-color;
+  font-style: italic;
 }
