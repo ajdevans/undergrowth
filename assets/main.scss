@@ -41,9 +41,16 @@ pre, code {
   letter-spacing: 0;
 }
 
+/* Header: no top bar, black line underneath */
 .site-header {
-  border-top: 4px solid $brand-color;
-  border-bottom: 1px solid $brand-color;
+  border-top: none;
+  border-bottom: 1px solid #000000;
+}
+
+/* Footer: black line on top, reduced empty space */
+.site-footer {
+  padding: 10px 0;
+  border-top: 1px solid #000000;
 }
 
 blockquote {
