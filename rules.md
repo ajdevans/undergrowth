@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Rules Reference
+title: SRD
 permalink: /rules/
 ---
