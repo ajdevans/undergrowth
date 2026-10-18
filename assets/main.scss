@@ -1,4 +1,22 @@
-scss
 ---
 ---
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+$background-color: #1e1a16;
+$text-color: #e8dcc4;
+$brand-color: #c9a227;
+$grey-color: #9a8f7a;
+$grey-color-light: #3a332a;
+$grey-color-dark: #c9bda5;
+$base-font-family: Futura, "Jost", "Century Gothic", "Trebuchet MS", sans-serif;
+$base-font-size: 18px;
+$content-width: 860px;
+
 @import "minima";
+
+/* Make sure every element uses the same font */
+h1, h2, h3, h4, h5, h6,
+.site-title, .site-nav, .post-meta,
+pre, code {
+  font-family: inherit;
+}
