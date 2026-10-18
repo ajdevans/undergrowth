@@ -1,0 +1,7 @@
+title: Undergrowth
+description: The dungeon hates you.
+theme: minima
+header_pages:
+- rules.md
+- lore.md
+- graveyard.md
