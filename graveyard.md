@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Graveyard
+title: GRAVEYARD
 permalink: /graveyard/
 ---
 
