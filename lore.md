@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Lore
+title: LORE
 permalink: /lore/
 ---
