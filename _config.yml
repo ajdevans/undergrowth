@@ -2,6 +2,7 @@ title: 𝖀𝖓𝖉𝖊𝖗𝖌𝖗𝖔𝖜𝖙𝖍
 description: The dungeon hates you.
 theme: minima
 header_pages:
+- delves.md
 - rules.md
 - lore.md
 - graveyard.md
