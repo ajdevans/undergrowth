@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SRD
+title: Rules
 permalink: /rules/
 ---
 
