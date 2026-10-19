@@ -1,163 +1,542 @@
----
----
-/* ==========================================================================
-   TEXT SIZE SUMMARY (edit the values in the sections below)
+/* REFERENCE
+--min-width: 20rem;
+--max-width: 40rem;
+--color: #333;
+--background-color: #f0dcc0;
+--hover-color: #ffecd0;
+--active-color: #fffce0;
+*/
 
-   Level                  Where it's set
-   ---------------------  ------------------------
-   Site title (header)    Section 4
-   Nav links (header)     Section 5
-   Page title (each page) Section 5
-   Heading 2 (##)         Section 6
-   Heading 3 (###)        Section 6
-   Headings 4-6 (####+)   Section 6
-   Body text              Section 2
-   ========================================================================== */
-
-/* ==========================================================================
-   1. FONT: load Jost (weights 400, 500, 700 plus italics) from Google Fonts
-   ========================================================================== */
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
-
-/* ==========================================================================
-   2. THEME SETTINGS: colors, body font, body size, page width
-      These must stay ABOVE the "@import minima" line.
-   ========================================================================== */
-$background-color: #ffffff;   /* page background */
-$text-color: #000000;         /* body text */
-$brand-color: #006a4e;        /* links and accents */
-$grey-color: #000000;         /* secondary text (set to black) */
-$grey-color-light: #d9d9d9;   /* faint divider lines only */
-$grey-color-dark: #000000;    /* secondary text (set to black) */
-
-$base-font-family: "Jost", Futura, "Century Gothic", "Trebuchet MS", sans-serif;
-$base-font-size: 14px;        /* BODY TEXT SIZE */
-$content-width: 860px;        /* maximum page width */
-
-@import "minima";
-
-/* ==========================================================================
-   3. GLOBAL: make headings, post details, and code use the same font
-   ========================================================================== */
-h1, h2, h3, h4, h5, h6,
-.post-meta,
-pre, code {
-  font-family: inherit;
+html {
+    box-sizing: border-box;
 }
 
-/* ==========================================================================
-   4. HEADER: SITE TITLE (the blog name at the top left)
-   ========================================================================== */
-.site-title {
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 54px;
-  letter-spacing: 0;
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-family: inherit;
 }
 
-/* ==========================================================================
-   5. NAV LINKS (header) AND PAGE TITLES (each page): sized separately
-   ========================================================================== */
+body {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    color: #333;
+    background-color: #f0dcc0;
+    font-size: 16px;
+    font-style: normal;
+    font-family:
+        "Palatino Linotype",
+        Palatino,
+        Palladio,
+        "URW Palladio L",
+        "Book Antiqua",
+        Baskerville,
+        "Bookman Old Style",
+        "Bitstream Charter",
+        "Nimbus Roman No9 L",
+        Garamond,
+        "Apple Garamond",
+        "ITC Garamond Narrow",
+        "New Century Schoolbook",
+        "Century Schoolbook",
+        "Century Schoolbook L",
+        Georgia,
+        serif;
 
-/* Nav links in the header (Rules, Lore, ...) */
-.site-nav .page-link {
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  font-size: 18px;              /* NAV LINK SIZE */
-  line-height: 1.5;
-  letter-spacing: 0;
+    font-weight: normal;
+    overflow-y: scroll;
 }
 
-/* Title at the top of each page or post, and of the home page */
-.post-title,
-.page-heading {
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  font-size: 28px;              /* PAGE TITLE SIZE */
-  line-height: 1.3;
-  letter-spacing: 0;
-}
-
-/* ==========================================================================
-   5b. HEADER ALIGNMENT: vertically centre the title and nav links
-       (desktop only; the mobile menu keeps the theme's own layout)
-   ========================================================================== */
-@media screen and (min-width: 600px) {
-  .site-header .wrapper {
+main {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  /* The theme adds an empty clearing element that would break the flex layout */
-  .site-header .wrapper::after {
-    display: none;
-  }
-
-  .site-title {
-    float: none;
-  }
-
-  .site-nav {
-    float: none;
-    line-height: 1.5;
-  }
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-width: 20rem;
 }
 
-/* ==========================================================================
-   6. HEADINGS INSIDE PAGE CONTENT (all smaller than the page title)
-   ========================================================================== */
+article, header, footer, p, table {
+    min-width: 19rem;
+    max-width: 40rem;
+    width: 100%;
+    margin: 0 auto;
+}
 
-/* Heading 2: written as ## in Markdown */
-.post-content h2,
+article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+footer {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    color: #111;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
 h2 {
-  font-size: 21px;
-  font-weight: 500;
-  margin-top: 1.8rem;
+    font-size: 1.5rem;
 }
 
-/* Heading 3: written as ### in Markdown */
-.post-content h3,
 h3 {
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 1.4rem;
+    font-size: 1.25rem;
 }
 
-/* Headings 4 to 6: written as ####, #####, ###### in Markdown */
-.post-content h4,
-h4,
-.post-content h5,
-h5,
-.post-content h6,
-h6 {
-  font-size: 18px;
-  font-weight: 400;
-  font-style: italic;
-  margin-top: 1.2rem;
+h4 {
+    font-size: 1.1rem;
 }
 
-/* ==========================================================================
-   7. LINES AND BARS
-   ========================================================================== */
-
-/* Header: no top bar, black line underneath */
-.site-header {
-  border-top: none;
-  border-bottom: 1px solid #000000;
+.small {
+    font-size: 0.75rem;
 }
 
-/* Footer: black line on top, reduced empty space */
-.site-footer {
-  padding: 10px 0;
-  border-top: 1px solid #000000;
+.subtitle {
+    text-align: center;
+    font-style: italic;
 }
 
-/* ==========================================================================
-   8. QUOTES
-   ========================================================================== */
-blockquote {
-  border-left: 4px solid $brand-color;
-  font-style: italic;
+hr {
+    color: #333;
+    width: 100%;
+}
+
+div.hr {
+    border-bottom: 2px solid #333;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.compact {
+    width:0.1%;
+    white-space: nowrap;
+}
+
+.lang {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    height: 20px;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-variant: small-caps;
+}
+
+.lang > a {
+    padding: 2px 4px 2px 4px;
+    margin: 0px 2px 0px 2px;
+}
+
+.wrap {
+    white-space: normal;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.highlight {
+    /* background-color: #ffecd0; */
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 1em;
+    border: 1px dotted #333;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:link {
+    color: darkslateblue;
+}
+
+a:visited {
+    color: darkslateblue;
+}
+
+a:hover {
+    color: slateblue;
+}
+
+a:active {
+    color: mediumpurple;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 1ex;
+}
+
+.bottom img {
+    width: 19rem;
+}
+
+input[type=button], select {
+    color: #333;
+    background-color: #f0dcc0;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding: 10px 6px 10px 6px; /* top right bottom left */
+    transition: 0.3s;
+    width: 100%;
+}
+
+input.narrow[type=button] {
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type=button]:hover {
+    background-color: #ffecd0;
+}
+
+input[type=button]:active {
+    background-color: #fffce0;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+.k-table {
+    table-layout: auto;
+    width: auto;
+}
+
+.k-table th,
+.k-table td {
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.k-table td input[type=button] {
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
+td {
+    padding: 5px;
+}
+
+ul {
+    margin-bottom: 0rem;
+    list-style-image: url(starredbullet.svg);
+}
+
+.ul2 {
+    margin-bottom: 0rem;
+    list-style-image: url(adfbullet48.svg);
+}
+
+.no-bullet {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* CONTAINERS */
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    margin: 8px;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* SPOILERS */
+
+.spoiler, .spoiler-clicked {
+    cursor: pointer;
+    color: darkslateblue;
+    font-weight: bolder;
+    padding: 5px 10px 5px 10px; /* top right bottom left */
+}
+
+.spoiler::before {
+    content: "\25b8\00a0";/* BLACK RIGHT-POINTING SMALL TRIANGLE */
+}
+
+.spoiler-clicked::before {
+    content: "\25be\00a0";/* BLACK DOWN-POINTING SMALL TRIANGLE */
+}
+
+.spoiler:hover, .spoiler-clicked:hover {
+    color: slateblue;
+    background-color: #ffecd0;
+}
+
+.spoiler:active, .spoiler-clicked:active {
+    color: mediumpurple;
+    background-color: #fffce0;
+}
+
+.spoiler-hidden, .spoiler-shown {
+    transition: 1s;
+}
+
+.spoiler-hidden {
+    display: none;
+}
+
+.spoiler-shown {
+    display: block;
+}
+
+/* TABS */
+
+.tab-menu {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.tab-link {
+    background-color: inherit;
+    float: left;
+    color: darkslateblue;
+    font-family: inherit;
+    font-size: 1rem;
+    font-variant: small-caps;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px 10px 20px; /* top right bottom left */
+    margin: 2px;
+    transition: 0.3s;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-grow: 9999;
+}
+
+.tab-link:hover {
+    color: slateblue;
+    background-color: #ffecd0;
+}
+
+.tab-link:active {
+    color: mediumpurple;
+    background-color: #fffce0;
+}
+
+.tab-link.active {
+    background-color: #ffecd0;
+}
+
+.tab {
+    display: none;
+    padding: 0px;
+    border: 0px;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.nav-left img {
+    position: relative;
+    top: 4px;
+    height: 48px;
+}
+
+.nav-right img {
+    position: relative;
+    top: 2px;
+    height: 36px;
+    padding-left: 4px;
+}
+
+nav > .nav-button {
+    display: none;
+}
+
+.nav-links {
+    display: inline;
+    float: left;
+    font-size: 1rem;
+    font-variant: small-caps;
+    transition: 0.3s;
+}
+
+.nav-links > a {
+    display: inline-block;
+    padding: 10px 6px 10px 6px; /* top right bottom left */
+    transition: 0.3s;
+}
+
+.nav-links > a:hover {
+    background: #ffecd0;
+}
+
+.nav-links > a:active {
+    background: #fffce0;
+}
+
+.nav-current {
+    /*
+     * text-decoration: underline #333 2px;
+     * text-underline-offset: 1ex;
+     */
+    background-color: #ffecd0;
+}
+
+nav > #nav-check {
+    display: none;
+}
+
+/* MOBILE */
+
+@media (max-width:480px) {
+    h1 {
+        font-size: 7vw;
+    }
+
+    .subtitle {
+        font-size: 4vw;
+    }
+
+    .inline-block {
+        display: block;
+    }
+
+    /* NAVIGATION */
+
+    nav > .nav-button {
+        display: inline-block;
+        position: absolute;
+        left: 8px;
+        top: -2px;
+        transition: 0.3s;
+    }
+
+    nav > .nav-button:hover {
+        background: #ffecd0;
+    }
+
+    nav > .nav-button:active {
+        background: #fffce0;
+    }
+
+    nav > .nav-button > label {
+        display: inline-block;
+        width: 44px;
+        height: 40px;
+        padding: 10px;
+    }
+
+    nav > .nav-button > label > span {
+        display: block;
+        width: 24px;
+        height: 11px;
+        border-top: 2px solid #333;
+    }
+
+    nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 8rem;
+        background-color: #f0dcc0;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+        border-right: 2px solid #333;
+    }
+
+    nav > .nav-links > a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav-current {
+        border: 0px;
+        /*
+        text-decoration: underline #333 2px;
+        text-underline-offset: 1ex;
+        */
+    }
+
+    nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+    }
+
+    nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 40px);
+        overflow-y: auto;
+    }
+
+    .nav-left, .nav-right img {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
