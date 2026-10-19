@@ -57,18 +57,25 @@ pre, code {
 }
 
 /* ==========================================================================
-   5. NAV LINKS AND PAGE TITLES: kept the same size and weight
-      - .site-nav .page-link = links in the header (Rules, Lore, ...)
-      - .post-title          = title at the top of each page or post
-      - .page-heading        = title at the top of the home page
+   5. NAV LINKS (header) AND PAGE TITLES (each page): sized separately
    ========================================================================== */
-.site-nav .page-link,
+
+/* Nav links in the header (Rules, Lore, ...) */
+.site-nav .page-link {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 18px;              /* NAV LINK SIZE */
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+/* Title at the top of each page or post, and of the home page */
 .post-title,
 .page-heading {
   font-family: "Jost", sans-serif;
   font-weight: 500;
-  font-size: 21px;
-  line-height: 1.5;
+  font-size: 28px;              /* PAGE TITLE SIZE */
+  line-height: 1.3;
   letter-spacing: 0;
 }
 
