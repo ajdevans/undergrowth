@@ -41,6 +41,33 @@ pre, code {
   letter-spacing: 0;
 }
 
+/* Headings inside page content: all smaller than the page title (20px) */
+.post-content h2,
+h2 {
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 1.8rem;
+}
+
+.post-content h3,
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 1.4rem;
+}
+
+.post-content h4,
+h4,
+.post-content h5,
+h5,
+.post-content h6,
+h6 {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 1.2rem;
+}
+
 /* Header: no top bar, black line underneath */
 .site-header {
   border-top: none;
