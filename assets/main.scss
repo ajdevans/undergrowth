@@ -1,27 +1,53 @@
 ---
 ---
+/* ==========================================================================
+   TEXT SIZE SUMMARY (edit the values in the sections below)
+
+   Level                  Size   Weight          Where it's set
+   ---------------------  -----  --------------  ------------------------
+   Site title (header)    26px   Medium (500)    Section 4
+   Nav links (header)     20px   Medium (500)    Section 5
+   Page title (each page) 20px   Medium (500)    Section 5
+   Heading 2 (##)         19px   Medium (500)    Section 6
+   Heading 3 (###)        18px   Medium (500)    Section 6
+   Headings 4-6 (####+)   18px   Regular italic  Section 6
+   Body text              16px   Regular (400)   Section 2
+   ========================================================================== */
+
+/* ==========================================================================
+   1. FONT: load Jost (weights 400, 500, 700 plus italics) from Google Fonts
+   ========================================================================== */
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
 
-$background-color: #ffffff;
-$text-color: #000000;
-$brand-color: #006a4e;
-$grey-color: #000000;
-$grey-color-light: #d9d9d9;
-$grey-color-dark: #000000;
+/* ==========================================================================
+   2. THEME SETTINGS: colors, body font, body size, page width
+      These must stay ABOVE the "@import minima" line.
+   ========================================================================== */
+$background-color: #ffffff;   /* page background */
+$text-color: #000000;         /* body text */
+$brand-color: #006a4e;        /* links and accents */
+$grey-color: #000000;         /* secondary text (set to black) */
+$grey-color-light: #d9d9d9;   /* faint divider lines only */
+$grey-color-dark: #000000;    /* secondary text (set to black) */
+
 $base-font-family: "Jost", Futura, "Century Gothic", "Trebuchet MS", sans-serif;
-$base-font-size: 18px;
-$content-width: 860px;
+$base-font-size: 16px;        /* BODY TEXT SIZE */
+$content-width: 860px;        /* maximum page width */
 
 @import "minima";
 
-/* Keep headings, code, and metadata in the same font */
+/* ==========================================================================
+   3. GLOBAL: make headings, post details, and code use the same font
+   ========================================================================== */
 h1, h2, h3, h4, h5, h6,
 .post-meta,
 pre, code {
   font-family: inherit;
 }
 
-/* Site title (header): original theme size */
+/* ==========================================================================
+   4. HEADER: SITE TITLE (the blog name at the top left)
+   ========================================================================== */
 .site-title {
   font-family: "Jost", sans-serif;
   font-weight: 500;
@@ -30,7 +56,12 @@ pre, code {
   letter-spacing: 0;
 }
 
-/* Nav links and page titles: same size, Jost Medium */
+/* ==========================================================================
+   5. NAV LINKS AND PAGE TITLES: kept the same size and weight
+      - .site-nav .page-link = links in the header (Rules, Lore, ...)
+      - .post-title          = title at the top of each page or post
+      - .page-heading        = title at the top of the home page
+   ========================================================================== */
 .site-nav .page-link,
 .post-title,
 .page-heading {
@@ -41,7 +72,12 @@ pre, code {
   letter-spacing: 0;
 }
 
-/* Headings inside page content: all smaller than the page title (20px) */
+
+/* ==========================================================================
+   6. HEADINGS INSIDE PAGE CONTENT (all smaller than the page title)
+   ========================================================================== */
+
+/* Heading 2: written as ## in Markdown */
 .post-content h2,
 h2 {
   font-size: 19px;
@@ -49,6 +85,7 @@ h2 {
   margin-top: 1.8rem;
 }
 
+/* Heading 3: written as ### in Markdown */
 .post-content h3,
 h3 {
   font-size: 18px;
@@ -56,6 +93,7 @@ h3 {
   margin-top: 1.4rem;
 }
 
+/* Headings 4 to 6: written as ####, #####, ###### in Markdown */
 .post-content h4,
 h4,
 .post-content h5,
@@ -67,6 +105,10 @@ h6 {
   font-style: italic;
   margin-top: 1.2rem;
 }
+
+/* ==========================================================================
+   7. LINES AND BARS
+   ========================================================================== */
 
 /* Header: no top bar, black line underneath */
 .site-header {
@@ -80,6 +122,9 @@ h6 {
   border-top: 1px solid #000000;
 }
 
+/* ==========================================================================
+   8. QUOTES
+   ========================================================================== */
 blockquote {
   border-left: 4px solid $brand-color;
   font-style: italic;
