@@ -56,6 +56,17 @@ pre, code {
   letter-spacing: 0;
 }
 
+/* Logo image to the left of the site title */
+.site-title .site-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+
 /* ==========================================================================
    5. NAV LINKS (header) AND PAGE TITLES (each page): sized separately
    ========================================================================== */
