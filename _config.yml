@@ -4,5 +4,6 @@ theme: minima
 header_pages:
 - delves.md
 - rules.md
+- equipment.md
 - lore.md
 - graveyard.md
