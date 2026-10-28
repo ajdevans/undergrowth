@@ -3,7 +3,7 @@ layout: page
 title: RULES
 permalink: /rules/
 ---
-
+*Last Revision: 2026-10-26*
 ---
 
 ## Principles:
