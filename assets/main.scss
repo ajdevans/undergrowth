@@ -172,13 +172,14 @@ hr {
   border-top: 1px solid #000000;
 }
 
-/* Remove a heading's own top margin when it comes straight after a line */
-hr + h2,
-hr + h3,
-hr + h4,
-hr + h5,
-hr + h6 {
-  margin-top: 0;
+/* Headings straight after a line: same gap above and below the heading */
+.post-content hr + h2,
+.post-content hr + h3,
+.post-content hr + h4,
+.post-content hr + h5,
+.post-content hr + h6 {
+  margin-top: 0;               /* gap above = the line's bottom margin (1.5rem) */
+  margin-bottom: 1.5rem;       /* gap below: set to the same value */
 }
 
 /* ==========================================================================
