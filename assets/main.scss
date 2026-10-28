@@ -165,6 +165,22 @@ h6 {
   border-top: 1px solid #000000;
 }
 
+/* Horizontal rules (--- in Markdown): equal space above and below */
+hr {
+  margin: 1.5rem 0;            /* SPACE ABOVE AND BELOW THE LINE */
+  border: 0;
+  border-top: 1px solid #000000;
+}
+
+/* Remove a heading's own top margin when it comes straight after a line */
+hr + h2,
+hr + h3,
+hr + h4,
+hr + h5,
+hr + h6 {
+  margin-top: 0;
+}
+
 /* ==========================================================================
    8. QUOTES
    ========================================================================== */
