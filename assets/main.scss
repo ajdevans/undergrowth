@@ -90,6 +90,11 @@ pre, code {
   letter-spacing: 0;
 }
 
+/* Reduce the space below the page title by half */
+.post-header {
+  margin-bottom: 15px;
+}
+
 /* ==========================================================================
    5b. HEADER ALIGNMENT: vertically centre the title and nav links
        (desktop only; the mobile menu keeps the theme's own layout)
