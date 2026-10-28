@@ -8,16 +8,22 @@ permalink: /equipment/
 **Selling:** Equipment can be sold for half the buying price.<br>
 **Encumbrance:** You have Equipment Slots equal to your max ST. Most items take up one slot. 500 sigloi takes up a slot.<br>
 
+---
+
 ## EQUIPMENT PACKS
 **Adventurer Pack (10sg):** Bandages (1), Rope (40’), Torches (6), Waterskin (3 Uses).<br>
 **Key Tools (17sg):** Crowbar, Grappling Hook, Hammer, Iron Spikes (12).<br>
 **I Want a Lantern (26sg):** Lantern, Oil Flask (3).<br>
 **Camping Pack (12sg):** Bedroll, Cooking Pots, Tent (2-person).<br>
 
+---
+
 ## TAGS
 **Bulky:** Items with the _Bulky_ tag take up two equipment slots and require two hands to use.<br>
 **Slow:** Weapons with the _Slow_ tag act last, as if they had lost initiative.<br>
 **Reach:** Can hit targets at a greater distance in melee.<br>
+
+---
 
 ## DAMAGE TYPES
 **Blunt:** +1 vs armour.<br>
@@ -25,10 +31,14 @@ permalink: /equipment/
 **Pierce:** No effect.<br>
 **Axe:** +1 vs shield.<br>
 
+---
+
 ## THE ARMOURER
 **Light Armour (100sg):** Armour 1. Padded gambeson with helmet.<br>
 **Full Armour (1000sg):** Armour 2. Lamellar armour with helmet, gauntlet, greaves. Makes it very hard to run, move quietly, swim, leap etc. _Bulky_.<br>
 **Shield (20sg):** Armour 1. Can shatter once to absorb all damage. _Bulky_.<br>
+
+---
 
 ## THE WEAPONSMITH
 **Club (1sg):** d6-1 blunt damage. _Slow_.<br>
@@ -48,11 +58,15 @@ permalink: /equipment/
 **Battleaxe (50sg):** d10 axe damage. _Slow_, _Bulky_.<br>
 **Greatsword (100sg):** d10 blade damage. _Bulky_.<br>
 
+---
+
 ## THE BOWYER
 **Sling (3sg):** d6 blunt damage, 40’ range.<br>
 **Bow (25sg):** d8 pierce damage, 60’ range, _Bulky_.<br>
 **Crossbow (50sg):** d10 pierce damage. 80’ range, _Slow_, _Bulky_.<br>
 **Ammunition (10sg):** Quiver of Arrows (20), Case of Quarrels (20).<br>
+
+---
 
 ## THE PROVISIONER
 *Note that list is illustrative, not exhaustive.*<br>
@@ -62,8 +76,25 @@ permalink: /equipment/
 
 **Specialty Items (20sg each):** Lantern, Lockpicks, Lockbox, Manacles, Musical Instrument, Spyglass.<br> 
 
+---
+
 ## THE BUGMASTER
 *Riding occupies equipment slots equal to the weight you are carrying.*<br>
 **Pack Beetle (100sg):** 4hp 1 Armour, 2d4+10 ST, 2d4+2 DX, 2d4 WP. Carries up to ST+20 slots.<br>
 **Giant Spider (300sg):** 5hp, d6+8 ST, d6+8 DX, 2d4+2 WP, bite (d6). Carries up to ST+10 slots. Can climb sheer surfaces.<br>
 **Giant Dragonfly (1000sg):** 6hp, 2d4+6 ST, 2d4+8 DX, 2d4 WP. Carries up to ST slots. Can fly, hover.<br>
+
+---
+
+## THE PRIEST
+**Remove Curse (500sg):** Can remove the Cursed condition.<br>
+
+--- 
+
+## HIRELINGS
+The party can hire a number of retainers up to the sum of their levels. Retainers must be at an equal or lower level than the person hiring them. Retainers are paid a half-share of the treasure and xp.<br>
+
+---
+
+## DOWNTIME
+You can spend sigloi on various projects, earning XP equal to the sigloi spent. Examples include carousing, donating to organisations, researching, or training. These may introduce complications as you become involved in the machinations of the world.<br>
