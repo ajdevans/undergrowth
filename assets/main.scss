@@ -188,11 +188,13 @@ html {
   scrollbar-gutter: stable;
 }
 
-/* Make Markdown tables fit their content */
+/* Make Markdown tables fit their content and centre them */
 main table {
   width: auto;
   max-width: 100%;
   table-layout: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Reduce space inside table cells */
