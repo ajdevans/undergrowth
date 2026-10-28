@@ -98,20 +98,21 @@ pre, code {
   .site-header .wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
-  /* The theme adds an empty clearing element that would break the flex layout */
   .site-header .wrapper::after {
     display: none;
   }
 
-  .site-title {
+  .site-header .site-title {
     float: none;
+    margin-right: auto;
   }
 
-  .site-nav {
+  .site-header .site-nav {
     float: none;
+    margin-left: auto;
     line-height: 1.5;
   }
 }
