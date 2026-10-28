@@ -72,3 +72,44 @@ V. Play to win. Delight in losing.<br>
 **Special Rest:** Resting for a week at the cost of 1% of your XP Total in sigloi can remove either the Diseased or Deranged condition in addition to restoring 1d6 of each Ability Score.<br>
 
 ---
+
+## BATTLE
+**Initiative:** Both sides roll 1d6; the higher roll goes first. If the roll is the same, both sides act simultaneously. Weapons with the Slow tag act last, as if they had lost initiative.<br>   
+
+**Actions:** Players can perform an action and move on their turn. Actions may require a Skill Roll or Save to be made.<br>
+
+**Attacks:** Roll damage die and subtract the opponent’s armour if applicable. Attacks are guaranteed to hit if in reach.<br>
+
+**Multiple Attackers:** When more than one attacker targets an individual, all attackers roll together and keep the highest number.<br>
+
+**Impaired/Enhanced:** Attacks hindered by the situation roll d4 damage; attacks aided by the situation roll d12 damage.<br>
+
+**Retreat:** Fleeing to safety under pursuit requires a DX save and somewhere to escape to.<br>
+
+**Dangerous Monsters:** Some monsters have unusual abilities. Some are so deadly they will instantly kill upon inflicting Critical Damage.<br>
+
+---
+
+## ENCUMBRANCE
+You have Equipment Slots equal to your max ST. Most items take up one slot. Two-handed items take two slots. 500 sigloi takes up a slot.<br>
+
+---
+
+## PROGRESSION
+
+**Experience:** You will gain 1xp for every 1sg worth of treasure you recover from the dungeon as a party, split evenly between all PCs.<br>
+
+| LEVEL | XP TOTAL |
+|:-----:|:--------:|
+|   1   |     0    |
+|   2   |   1,000  |
+|   3   |   3,000  |
+|   4   |   6,000  |
+|   5   |  10,000  |
+|   6   |  15,000  |
+|   7   |  21,000  |
+|   8   |  28,000  |
+|   9   |  36,000  |
+|   10  |  45,000  |
+
+**Levelling Up:** Gain 1d6 HP and roll 1d20 for each Ability Score. If the roll is higher than the score, it is increased by 1.<br>
