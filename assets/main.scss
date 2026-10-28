@@ -183,6 +183,11 @@ hr {
   margin-bottom: 1.5rem;       /* gap below: set to the same value */
 }
 
+/* Keep the header aligned consistently between pages */
+html {
+  scrollbar-gutter: stable;
+}
+
 /* ==========================================================================
    8. QUOTES
    ========================================================================== */
