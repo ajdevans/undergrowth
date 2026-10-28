@@ -188,6 +188,19 @@ html {
   scrollbar-gutter: stable;
 }
 
+/* Make Markdown tables fit their content */
+main table {
+  width: auto;
+  max-width: 100%;
+  table-layout: auto;
+}
+
+/* Reduce space inside table cells */
+main th,
+main td {
+  padding: 5px 8px;
+}
+
 /* ==========================================================================
    8. QUOTES
    ========================================================================== */
