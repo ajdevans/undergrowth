@@ -19,7 +19,7 @@ V. Play to win. Delight in losing.<br>
 
 ## CHARACTER CREATION
 
-**Roll d6** for each Ability Score - Strength (ST), Dexterity (DX), and Willpower (WP).<br>
+**Roll 1d6** for each Ability Score - Strength (ST), Dexterity (DX), and Willpower (WP).<br>
 
 **Roll 1d6** for your starting max Hit Points (HP). This determines your starting funds.
 
