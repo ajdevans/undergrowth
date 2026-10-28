@@ -17,6 +17,61 @@ V. Play to win. Delight in losing.<br>
 
 ---
 
+## CHARACTER CREATION
+
+Roll **3d6** for each Ability Score - Strength (ST), Dexterity (DX), and Willpower (WP).<br>
+
+Roll **1d6** for your starting max Hit Points (HP). This determines your starting funds.
+
+| HP | SIGLOI |
+|:--:|:------:|
+|  1 |  90sg  |
+|  2 |  75sg  |
+|  3 |  60sg  |
+|  4 |  45sg  |
+|  5 |  30sg  |
+|  6 |  15sg  |
+
+**Roll 1d6** to determine your type, and **1d8** for your Profession. This determines your character’s knowledge, areas of expertise, and bonus starting equipment.<br>
+
+### 1-2 MARTIAL: +1 ST
+1. **Chinampas Farmer:** Shovel, Hatchet.<br>
+2. **Scrapsmith:** Hammer, Caltrops (20).<br>
+3. **Miner:** Pickaxe, Torch (6).<br>
+4. **Builder:** Chisel, Iron Spikes (12).<br>
+5. **Woodsman:** Handaxe (d6 axe, 1h), Saw.<br>
+6. **Dock Worker:** Rope (40’), Block and Tackle.<br>
+7. **City State Garrison:** Shield (A1).<br>
+8. **Minor Noble:** 20sg, Steel Mirror.<br>
+
+### 3-4 SKILL: +1 DX 
+1. **Thief:** Lockpicks.<br>
+2. **Bug Hunter:** Animal Trap (2), Sling (d6 blunt, 40’ range).<br>
+3. **Fish Slayer:** Fishing rod and tackle, Javelin (d6 pierce, 1h).<br>
+4. **Gourmand:** Cooking Pots, Oil (3).<br>
+5. **Boatman:** Pole (10ft), Rope (40’).<br>
+6. **Weaver:** Twine (100ft ball), Sack (large).<br>
+7. **Desert Nomad:** Waterskin, Scimitar (d8 blade, 1h).<br>
+8. **Minstrel:** Wooden Double Flute.<br>
+
+### 5-6 SAGE: +1 WP
+1. **Beggar:** Alms bowl.<br>
+2. **Pilgrim of the Lakes:** Bell (miniature), Tent (2-person).<br>
+3. **Hermit:** Staff (d6 2h blunt), Lantern, Oil (1).<br>
+4. **Scholar:** Quill and Ink, Parchment (2).<br>
+5. **Sanator:** Bandages (3), Saw.<br>
+6. **Merchant of the Ring:** Lockbox, 10sg.<br>
+7. **Lake Priest:** Prayerbook, Candles (12).<br>
+8. **Rhapsode of the Old Stories:** Wineskin, Marbles (20).<br>
+
+**Choose three adjectives** that describe what people first notice about your character. These could describe your physique, temperament, or attire.<br>
+
+**Decide your character’s ambition**, and why they decided to brave the dangers of the dungeon.<br>
+
+**Give your character a name**, and buy any additional gear.<br>
+
+---
+
 ## ROLLING DICE
 **Skill Rolls:** When trying to execute a plan where success is not guaranteed, roll 1d6. The X-in-6 chance is dependent on preparation and planning.<br>
 
