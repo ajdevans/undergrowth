@@ -3,4 +3,4 @@ layout: page
 title: DELVES
 permalink: /delves/
 ---
-This is where the delves report be.
+[2026-10-26: The First Foray](/reports/2026-10-26)
