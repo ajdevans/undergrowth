@@ -4,4 +4,7 @@ title: GRAVEYARD
 permalink: /graveyard/
 ---
 
-I was not; I was; I am not; I care not.
+*Non fui, fui, non sum, non curo.* <br>
+
+2026-10-26 **John don Geon**, jugular ripped out by Lizardman.
+2026-10-26 **Jeremy Pines**, pierced by Lizardmen spears and left to be consumed.
