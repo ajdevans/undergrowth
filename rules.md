@@ -8,7 +8,7 @@ permalink: /rules/
 
 ---
 
-## Principles:
+## PRINCIPLES
 I. Ask questions always. Leverage the situation.<br>
 II. Think laterally. Scheme to avoid rolling.<br>
 III. Equipment is your class. Prepare wisely.<br>
