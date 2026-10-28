@@ -4,6 +4,10 @@ title: EQUIPMENT
 permalink: /equipment/
 ---
 
+*Last Revision: 2026-10-26*
+
+---
+
 **Starting Equipment:** Every character starts with a Backpack, Clothes fitting their profession, Knife (d6 blade damage), Torches (6), Tinderbox, Waterskin (3 Uses).<br>
 **Selling:** Equipment can be sold for half the buying price.<br>
 **Encumbrance:** You have Equipment Slots equal to your max ST. Most items take up one slot. 500 sigloi takes up a slot.<br>
