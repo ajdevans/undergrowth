@@ -208,6 +208,15 @@ main td {
   padding: 5px 8px;
 }
 
+/* White dividers between table header columns */
+main table th:not(:last-child) {
+  border-right: 1px solid #ffffff;
+}
+
+main table th + th {
+  border-left: 1px solid #ffffff;
+}
+
 /* ==========================================================================
    8. QUOTES
    ========================================================================== */
