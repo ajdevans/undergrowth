@@ -4,7 +4,6 @@ title: RULES
 permalink: /rules/
 ---
 
----
 ## Principles:
 I. Ask questions always. Leverage the situation.<br>
 II. Think laterally. Scheme to avoid rolling.<br>
