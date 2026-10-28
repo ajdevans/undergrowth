@@ -3,6 +3,7 @@ layout: page
 title: RULES
 permalink: /rules/
 ---
+
 ---
 ## Principles:
 I. Ask questions always. Leverage the situation.<br>
