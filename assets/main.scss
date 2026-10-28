@@ -208,6 +208,13 @@ main td {
   padding: 5px 8px;
 }
 
+/* Black table headers with white text */
+main table th {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #000000;
+}
+
 /* White dividers between table header columns */
 main table th:not(:last-child) {
   border-right: 1px solid #ffffff;
