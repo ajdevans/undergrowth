@@ -58,7 +58,7 @@ permalink: /equipment/
 **Sword (40sg):** d8 blade damage.<br>
 
 **Pike (25sg):** d10 pierce damage. _Slow_, _Bulky_, _Reach_.<br>
-**Polearm (50sg):** d8 pierce damage, _Reach_ OR d8 axe damage. _Slow_, _Bulky_. 
+**Polearm (50sg):** d8 pierce damage, _Reach_ OR d8 axe damage. _Slow_, _Bulky_.<br>
 **Flail (50sg):** d8 blunt damage. _Slow_, _Bulky_.<br>
 **Battleaxe (50sg):** d10 axe damage. _Slow_, _Bulky_.<br>
 **Greatsword (100sg):** d10 blade damage. _Bulky_.<br>
