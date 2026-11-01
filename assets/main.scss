@@ -1,62 +1,64 @@
 ---
 ---
-/* ==========================================================================
-   TEXT SIZE SUMMARY (edit the values in the sections below)
+/* ========================================================================== 
+   TEXT SIZE SUMMARY
 
-   Level                  Where it's set
-   ---------------------  ------------------------
-   Site title (header)    Section 4
-   Nav links (header)     Section 5
-   Page title (each page) Section 5
-   Heading 2 (##)         Section 6
-   Heading 3 (###)        Section 6
-   Headings 4-6 (####+)   Section 6
-   Body text              Section 2
+   Level                   Where it's set
+   ----------------------  ------------------------
+   Site title (header)     Section 4
+   Nav links (header)      Section 5
+   Page title              Section 5
+   Heading 2 (##)          Section 6
+   Heading 3 (###)         Section 6
+   Headings 4-6            Section 6
+   Body text               Section 2
    ========================================================================== */
 
-/* ==========================================================================
-   1. FONT: load Jost (weights 400, 500, 700 plus italics) from Google Fonts
-   ========================================================================== */
+/* 1. FONT: load Jost from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
 
-/* ==========================================================================
-   2. THEME SETTINGS: colors, body font, body size, page width
-      These must stay ABOVE the "@import minima" line.
-   ========================================================================== */
-$background-color: #ffffff;   /* page background */
-$text-color: #000000;         /* body text */
-$brand-color: #006a4e;        /* links and accents */
-$grey-color: #000000;         /* secondary text (set to black) */
-$grey-color-light: #d9d9d9;   /* faint divider lines only */
-$grey-color-dark: #000000;    /* secondary text (set to black) */
+/* 2. THEME SETTINGS: keep these above the Minima import */
+$background-color: #ffffff;
+$text-color: #000000;
+$brand-color: #006a4e;
+$grey-color: #000000;
+$grey-color-light: #d9d9d9;
+$grey-color-dark: #000000;
 
 $base-font-family: "Jost", Futura, "Century Gothic", "Trebuchet MS", sans-serif;
-$base-font-size: 14px;        /* BODY TEXT SIZE */
-$content-width: 860px;        /* maximum page width */
+$base-font-size: 14px;
+$content-width: 860px;
 
 @import "minima";
 
-/* ==========================================================================
-   3. GLOBAL: make headings, post details, and code use the same font
-   ========================================================================== */
-h1, h2, h3, h4, h5, h6,
+/* 3. GLOBAL TYPOGRAPHY */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 .post-meta,
-pre, code {
+pre,
+code {
   font-family: inherit;
 }
 
-/* ==========================================================================
-   4. HEADER: SITE TITLE (the blog name at the top left)
-   ========================================================================== */
-.site-title {
+/* 4. SITE TITLE AND LOGO */
+.site-title,
+.site-nav .page-link,
+.post-title,
+.page-heading {
   font-family: "Jost", sans-serif;
+}
+
+.site-title {
   font-weight: 500;
   font-size: 28px;
   line-height: 54px;
   letter-spacing: 0;
 }
 
-/* Logo image to the left of the site title */
 .site-title .site-logo {
   width: 44px;
   height: 44px;
@@ -67,66 +69,53 @@ pre, code {
   top: -2px;
 }
 
-/* ==========================================================================
-   5. NAV LINKS (header) AND PAGE TITLES (each page): sized separately
-   ========================================================================== */
-
-/* Nav links in the header (Rules, Lore, ...) */
+/* 5. NAVIGATION AND PAGE TITLES */
 .site-nav .page-link {
-  font-family: "Jost", sans-serif;
   font-weight: 500;
-  font-size: 18px;              /* NAV LINK SIZE */
+  font-size: 18px;
   line-height: 0.7;
   letter-spacing: 0;
 }
 
-/* Title at the top of each page or post, and of the home page */
 .post-title,
 .page-heading {
-  font-family: "Jost", sans-serif;
   font-weight: 500;
-  font-size: 28px;              /* PAGE TITLE SIZE */
+  font-size: 28px;
   line-height: 0.7;
   letter-spacing: 0;
 }
 
-/* Reduce the space below the page title by half */
-/* .post-header {
-  margin-bottom: 15px;
- }
-*/
-/* ==========================================================================
-   5b. HEADER ALIGNMENT: vertically centre the title and nav links
-       (desktop only; the mobile menu keeps the theme's own layout)
-   ========================================================================== */
+/* Space below page and post titles */
+.post-header {
+  margin-bottom: 26px;
+}
+
+/* Desktop header alignment; retain Minima's mobile layout */
 @media screen and (min-width: 600px) {
   .site-header .wrapper {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 
+  /* Hide Minima's clearfix pseudo-element, which would become a flex item */
   .site-header .wrapper::after {
     display: none;
   }
 
-  .site-header .site-title {
+  .site-header .site-title,
+  .site-header .site-nav {
     float: none;
-    margin-right: auto;
   }
 
   .site-header .site-nav {
-    float: none;
-    margin-left: auto;
     line-height: 1.3;
   }
 }
 
-/* ==========================================================================
-   6. HEADINGS INSIDE PAGE CONTENT (all smaller than the page title)
-   ========================================================================== */
-
-/* Heading 2: written as ## in Markdown */
+/* 6. HEADINGS WITHIN PAGE CONTENT
+   Keep .post-content in these selectors to retain enough specificity
+   to override Minima's default heading styles. */
 .post-content h2,
 h2 {
   font-size: 21px;
@@ -134,7 +123,6 @@ h2 {
   margin-top: 1.8rem;
 }
 
-/* Heading 3: written as ### in Markdown */
 .post-content h3,
 h3 {
   font-size: 16px;
@@ -142,7 +130,6 @@ h3 {
   margin-top: 1.4rem;
 }
 
-/* Headings 4 to 6: written as ####, #####, ###### in Markdown */
 .post-content h4,
 h4,
 .post-content h5,
@@ -155,30 +142,25 @@ h6 {
   margin-top: 1.2rem;
 }
 
-/* ==========================================================================
-   7. LINES AND BARS
-   ========================================================================== */
-
-/* Header: no top bar, black line underneath */
+/* 7. LINES, TABLES AND BARS */
 .site-header {
   border-top: none;
   border-bottom: 1px solid #000000;
 }
 
-/* Footer: black line on top, reduced empty space */
 .site-footer {
   padding: 10px 0;
   border-top: 1px solid #000000;
 }
 
-/* Horizontal rules (--- in Markdown): equal space above and below */
+/* Horizontal rules */
 hr {
-  margin: 1.5rem 0;            /* SPACE ABOVE AND BELOW THE LINE */
+  margin: 1.5rem 0;
   border: 0;
   border-top: 1px solid #000000;
 }
 
-/* Headings following horizontal rules: visually balanced spacing */
+/* Balance spacing around headings immediately following horizontal rules */
 .post-content hr + h2,
 .post-content hr + h3,
 .post-content hr + h4,
@@ -188,12 +170,12 @@ hr {
   margin-bottom: calc(1.5rem - 5px);
 }
 
-/* Keep the header aligned consistently between pages */
+/* Keep the viewport width stable when a page needs a vertical scrollbar */
 html {
   scrollbar-gutter: stable;
 }
 
-/* Make Markdown tables fit their content and centre them */
+/* Centre Markdown tables and let their columns size to their contents */
 main table {
   width: auto;
   max-width: 100%;
@@ -202,13 +184,12 @@ main table {
   margin-right: auto;
 }
 
-/* Reduce space inside table cells */
 main th,
 main td {
   padding: 5px 8px;
 }
 
-/* Black table headers with white text */
+/* Black table headers with normal-weight white text */
 main table th {
   background-color: #000000;
   color: #ffffff;
@@ -216,7 +197,7 @@ main table th {
   font-weight: 400;
 }
 
-/* White dividers between table header columns */
+/* Keep both adjoining edges white for a reliable white column divider */
 main table th:not(:last-child) {
   border-right: 1px solid #ffffff;
 }
@@ -225,14 +206,7 @@ main table th + th {
   border-left: 1px solid #ffffff;
 }
 
-/* Match spacing below the page title to other headings */
-.post-header {
-  margin-bottom: 26px;
-}
-
-/* ==========================================================================
-   8. QUOTES
-   ========================================================================== */
+/* 8. QUOTES */
 blockquote {
   border-left: 4px solid $brand-color;
   font-style: italic;
