@@ -225,6 +225,11 @@ main table th + th {
   border-left: 1px solid #ffffff;
 }
 
+/* Match spacing below the page title to other headings */
+.page .post-header {
+  margin-bottom: 26px;
+}
+
 /* ==========================================================================
    8. QUOTES
    ========================================================================== */
