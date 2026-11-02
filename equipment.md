@@ -4,7 +4,7 @@ title: EQUIPMENT
 permalink: /equipment/
 ---
 
-*Last Revision: 2026-10-31*
+*Last Revision: 2026-11-02*
 
 ---
 
