@@ -7,4 +7,4 @@ permalink: /graveyard/
 
 2026-10-26: **John Don-Geon**, Dock Worker, Lvl 1. Jugular ripped out by Lizardman.<br>
 2026-10-26: **Jeremy Pines**, Chinampas Farmer, Lvl 1. Pierced by Lizardmen spears and left to be consumed.<br>
-2026-11-26: **Fern Riverwood**, Woodsman, Lvl 1. Femoral arteries pierced by spiked pit trap; failed stabilisation; prompt exsanguination.<br>
+2026-11-26: **Fern Riverwood**, Woodsman, Lvl 1. Femoral arteries pierced by spiked pit trap; prompt exsanguination.<br>
