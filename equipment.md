@@ -31,10 +31,10 @@ permalink: /equipment/
 ---
 
 ## DAMAGE TYPES
-**Blunt:** +1 vs armour.<br>
-**Blade:** +1 vs unarmoured, -1 vs armoured.<br>
-**Pierce:** No effect.<br>
 **Axe:** +1 vs shield.<br>
+**Blade:** +1 vs unarmoured, -1 vs armoured.<br>
+**Blunt:** +1 vs armour.<br>
+**Pierce:** No effect.<br>
 
 ---
 
