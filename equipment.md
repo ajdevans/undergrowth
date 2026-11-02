@@ -24,8 +24,9 @@ permalink: /equipment/
 
 ## TAGS
 **Bulky:** Items with the _Bulky_ tag take up two equipment slots and require two hands to use.<br>
-**Slow:** Weapons with the _Slow_ tag act last, as if they had lost initiative.<br>
 **Reach:** Can hit targets at a greater distance in melee.<br>
+**Slow:** Weapons with the _Slow_ tag act last, as if they had lost initiative.<br>
+**Throwable:** Can be thrown without being _Impaired_.
 
 ---
 
@@ -47,10 +48,10 @@ permalink: /equipment/
 ## THE WEAPONSMITH
 **Club (1sg):** d6-1 blunt damage. _Slow_.<br>
 **Stave (1sg):** d6-1 blunt damage. _Slow_, _Bulky_, _Reach_.<br>
-**Javelin (5sg):** d6 pierce damage. Not impaired when thrown.<br>
-**Hand Axe (10sg):** d6 axe damage. Not impaired when thrown.<br>
-**Dagger (10sg):** d6 pierce damage. Not impaired when thrown.<br>
-**Knife (20sg):** d6 blade damage. Not impaired when thrown.<br>
+**Javelin (5sg):** d6 pierce damage. _Throwable_.<br>
+**Hand Axe (10sg):** d6 axe damage. _Throwable_.<br>
+**Dagger (10sg):** d6 pierce damage. _Throwable_.<br>
+**Knife (20sg):** d6 blade damage. _Throwable_.<br>
 
 **Spear (10sg):** d8 damage when used with two hands, d6 when used with one. _Bulky_, _Reach_.<br>
 **Mace (20sg):** d6 blunt damage.<br>
@@ -86,8 +87,8 @@ permalink: /equipment/
 ## THE BUGMASTER
 *Riding occupies equipment slots equal to the weight you are carrying.*<br>
 **Pack Beetle (100sg):** 4hp 1 Armour, 2d4+10 ST, 2d4+2 DX, 2d4 WP. Carries up to ST+20 slots.<br>
-**Giant Spider (300sg):** 5hp, d6+8 ST, d6+8 DX, 2d4+2 WP, bite (d6). Carries up to ST+10 slots. Can climb sheer surfaces.<br>
-**Giant Dragonfly (1000sg):** 6hp, 2d4+6 ST, 2d4+8 DX, 2d4 WP. Carries up to ST slots. Can fly, hover.<br>
+**Giant Spider (300sg):** 5hp, 2d4+8 ST, 2d4+4 DX, 2d4+2 WP, bite (d6). Carries up to ST+10 slots. Can climb sheer surfaces.<br>
+**Giant Dragonfly (1000sg):** 6hp, 2d4+6 ST, 2d4+8 DX, 2d4+1 WP. Carries up to ST slots. Can fly, hover.<br>
 
 ---
 
